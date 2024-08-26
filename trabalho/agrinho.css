@@ -1,0 +1,199 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: #eee;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #388E3C;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.highlight {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.highlight h3 {
+    margin-bottom: 10px;
+}
+
+.highlight p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.empreendimentos, .startups, .modelos, .recursos, .blog, .contato {
+    padding: 20px 0;
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.caso, .empreendedor, .modelo, .recursos-lista ul, .ferramentas ul {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.caso h4, .empreendedor h4, .modelo h4 {
+    margin-bottom: 10px;
+}
+
+.recursos-lista ul, .ferramentas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recursos-lista ul li, .ferramentas ul li {
+    margin-bottom: 10px;
+}
+
+.recursos-lista a, .ferramentas a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.recursos-lista a:hover, .ferramentas a:hover {
+    text-decoration: underline;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato form label {
+    margin-bottom: 5px;
+}
+
+.contato form input, .contato form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contato form button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato form button:hover {
+    background: #388E3C;
+}
