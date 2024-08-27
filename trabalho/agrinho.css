@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -58,15 +57,17 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.cta-button {
+.cta-button, .contato form button {
     background: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-.cta-button:hover {
+.cta-button:hover, .contato form button:hover {
     background: #388E3C;
 }
 
@@ -127,7 +128,6 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
-
 
 .empreendimentos, .startups, .modelos, .recursos, .blog, .contato {
     padding: 20px 0;
@@ -200,3 +200,4 @@ section {
 .contato form button:hover {
     background: #388E3C;
 }
+
